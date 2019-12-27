@@ -5,10 +5,12 @@ class Output extends Component {
     render() {
         return (
             <div className='output'>
-            <p>{this.props.text} {this.props.userName}</p>
+                <p>This is the {this.props.order} output component</p>
+                <p>{this.props.text}</p>
+                <p>{this.props.userName}</p>
             </div>
-        )          
-        
+        )
+
     }
 }
 

@@ -1,19 +1,26 @@
-.User {
-    width: 50%;
-    border: 1px solid black;
+input,
+.input,
+.output {
+    margin: 2%;
+}
+
+.input,
+.output {
     padding: 2%;
-    margin: auto;
+    border: 1px solid black;
 }
 
 .input {
-    border: 1px solid black;
-    margin: 5%;
-    padding: 5%;
+    background-color: darkgray;
 }
 
 .output {
-    border: 1px solid black;
-    margin: 5%;
-    padding: 5%;
+    background-color: ghostwhite;
+}
 
+.User {
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+    background-color: gainsboro;
 }

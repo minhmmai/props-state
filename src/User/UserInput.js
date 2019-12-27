@@ -6,7 +6,7 @@ class Input extends Component {
         return (
             <div className='input'>
                 <label>Enter text below</label><br/>
-                <input type='text' onChange={this.props.changed}></input>
+                <input type='text' onChange={this.props.changed} value={this.props.value}></input>
             </div>
         )
     }
